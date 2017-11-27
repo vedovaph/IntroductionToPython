@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ########################################################################
 #
-# TODO: 2.
+# Done: 2.
 #   Allow this file to use the rosegraphics.py file by marking the src
 #   directory as a "Sources Root".  Do that by right clicking on the src folder,
 #   then selector  Mark Directory As --> Sources Root
@@ -77,7 +77,7 @@ matt.forward(50)
 
 ########################################################################
 #
-# TODO: 3.
+# Done: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.
@@ -88,10 +88,17 @@ matt.forward(50)
 #   As always, test by running the module.
 #
 ########################################################################
+pat=rg.SimpleTurtle('turtle')
+pat.pen=rg.Pen('green',10)
+pat.speeed=3
+pat.right(100)
+pat.right(100)
+pat.right(100)
+
 
 ########################################################################
 #
-# TODO: 4.
+# Done: 4.
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
 #
@@ -109,10 +116,18 @@ matt.forward(50)
 #   As always, test by running the module.
 #
 ########################################################################
+jim=rg.SimpleTurtle('turtle')
+jim.pen=rg.Pen('yellow',20)
+jim.forward(10)
+jim.right(45)
+jim.forward(10)
+jim.left(56)
+jim.backward(60)
+
 
 ########################################################################
 #
-# TODO: 5.
+# Done: 5.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
